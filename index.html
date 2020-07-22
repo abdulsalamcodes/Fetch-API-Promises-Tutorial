@@ -2,10 +2,46 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;1,300&display=swap" rel="stylesheet">
   <title>Studio Ghibli Info</title>
+  <style>
+    html {
+      box-sizing: border-box;
+      font-size: 62.5%;
+    }
+    body {
+      background-color: #f4f4f4;
+      /* font-family: 'Open Sans', sans-serif; */
+      font-family: 'Nunito Sans', sans-serif;
+      color: #626262;
+      line-height: 1.6;
+      font-size: 1.5rem;
+
+    }
+    .heading {
+      text-align: center;
+    }
+    #main {
+      width: 60%;
+      margin: 0 auto;
+    }
+    li {
+      list-style: none;
+      display: block;
+      background-color: #b47878d7;
+      padding: 3rem 2rem;
+      margin: 2rem 0;
+      border-radius: 5px;
+      color: rgb(255, 247, 247);
+    }
+    li:hover {
+      background-color: #b88686d7;
+      cursor: pointer;
+    }
+  </style>
 </head>
 <body>
-  <h1>Studio Ghibli Characters</h1>
+  <h1 class="heading">Studio Ghibli Characters</h1>
   <div id="main"></div>
   <script src="index.js"></script>
 </body>

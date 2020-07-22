@@ -9,7 +9,7 @@ fetch(URL)
 
 const getListOfNames = (people) => {
   const names = people
-    .map((person) => `<li>${person.name}</li>`)
+    .map((person) => `<li>Name: ${person.name}   Age: ${person.age} </li>`)
     .join("\n");
 
   return `<ul>${names}</ul>`;
